@@ -1,0 +1,19 @@
+{
+    "name": "ruslanzh/ci",
+    "authors": [
+        {
+            "name": "Ruslan Zhovnerovskiy",
+            "email": "hello.omny@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "core\\": "core",
+            "app\\": "app"
+        }
+    }
+}
