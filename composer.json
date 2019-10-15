@@ -1,5 +1,6 @@
 {
-    "name": "ruslanzh/ci",
+    "name": "ruslanzh/simple-ci",
+    "license": "BSD",
     "authors": [
         {
             "name": "Ruslan Zhovnerovskiy",
