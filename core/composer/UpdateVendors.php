@@ -55,7 +55,7 @@ class UpdateVendors extends AbstractComponent implements ComponentInterface
 
     private function update(): void
     {
-        $cmd = sprintf('cd %s && %s %s i -v',
+        $cmd = sprintf('cd %s && %s %s i --no-dev --optimize-autoloader -v',
             $this->codeDir,
             $this->phpDir,
             self::COMPOSER_EXEC_NAME
